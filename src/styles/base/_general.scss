@@ -1,0 +1,23 @@
+html{
+  box-sizing: border-box;
+}
+  
+*,*:before,*:after{
+  box-sizing: inherit;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: white;
+  text-align: center;
+}
+
+.contenedor{
+  max-width: 1200px;
+  width: 94%;
+  margin: 0 auto;
+}

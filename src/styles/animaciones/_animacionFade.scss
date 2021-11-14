@@ -1,0 +1,12 @@
+.animacionFade{
+    animation: animacionFade .4s ease-in-out;
+}
+
+@keyframes animacionFade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

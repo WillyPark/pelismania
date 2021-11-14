@@ -1,0 +1,36 @@
+.peliculas__titulo{
+    color: black;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+@media(min-width: 768px){
+    .peliculas__titulo{
+        font-size: 2.5rem;
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: 40vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+  
+@media(min-width: 768px){
+    .swiper{
+        height: 75vh;
+    }
+}
+    
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+}
+    
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
