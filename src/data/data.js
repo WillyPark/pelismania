@@ -12,12 +12,5 @@ export const data = [
         nombreTitulo: "T-ara Painkiller Piano Cover",
         url: "https://onedrive.live.com/embed?cid=2F0F76800D1EE044&resid=2F0F76800D1EE044%21413&authkey=ANo7xerNzR8rNyc",
         imagen: "tara-painkiller" 
-    },
-    {
-        id: 3,
-        nombreURL: "piano",
-        nombreTitulo: "Piano Cover",
-        url: "https://drive.google.com/file/d/1w7ep4WuRfkB0VEkPblwtqt_gFOu8bc5A/preview",
-        imagen: "tara-painkiller" 
     }
 ]
