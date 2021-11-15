@@ -23,7 +23,7 @@ export const Pelicula = ({ history }) => {
             </div>
 
             <div className="pelicula__contenedor">
-                <iframe title={ pelicula.nombreURL } src={ pelicula.url } frameBorder="0" scrolling="no" allowFullScreen></iframe>
+                <iframe title={ pelicula.nombreURL } src={ pelicula.url } frameBorder="0" scrolling="no" allowFullScreen sandbox="allow-scripts" referrerPolicy="strict-origin"></iframe>
             </div>
         </section>
     )
