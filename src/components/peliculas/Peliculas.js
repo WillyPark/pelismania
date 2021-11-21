@@ -10,11 +10,11 @@ import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
 
-export const Peliculas = ({ history }) => {
+export const Peliculas = () => {
 
-  const handleClick = ( nombre = "" ) => {
-    history.push( "/pelicula/" + nombre );
-  }
+  // const handleClick = ( nombre = "" ) => {
+  //   history.push( "/pelicula/" + nombre );
+  // }
 
   return (
     <main className="animacionFade">
@@ -39,7 +39,9 @@ export const Peliculas = ({ history }) => {
         {
           data.map( dato => (
             <SwiperSlide key={ dato.id }>
-              <img alt="Imagen Película" src={`./assets/img/${ dato.imagen }.jpg`} onClick={ () => { handleClick( dato.nombreURL ); } }/>
+              <a href={ dato.url } target="_blank" rel="noreferrer">
+                <img alt="Imagen Película" src={`./assets/img/${ dato.imagen }.jpg`} />
+              </a>
             </SwiperSlide>
           ))
         }
